@@ -20,26 +20,24 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Muhammad BIlal",
+  title: "Hi all, Bilal",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Software Developer 🚀 having an experience of building Web applications with JavaScript / Reactjs / Redux / Nextjs and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1z7hG_zJXEjSr-V1wtyJbBYNsPvdq7VJw/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/bilalbutt044",
+  linkedin: "https://linkedin.com/in/mrbilaltariq/",
+  gmail: "mbilalbutt003@gmail.com",
+  // facebook: "https://www.facebook.com/saad.pasta7",
+  stackoverflow: "https://stackoverflow.com/users/5720763/bilal-butt",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,15 +47,15 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "Develop frontend in cutting edge technologies",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Develop highly interactive Front end / User Interfaces for your web applications"
     )
+    // emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    // emoji(
+    //   "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+    // )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -89,33 +87,29 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
     },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
+    // {
+    //   skillName: "sql-database",
+    //   fontAwesomeClassname: "fas fa-database"
+    // },
+    // {
+    //   skillName: "aws",
+    //   fontAwesomeClassname: "fab fa-aws"
+    // },
     {
       skillName: "firebase",
       fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
     }
+    // {
+    //   skillName: "python",
+    //   fontAwesomeClassname: "fab fa-python"
+    // },
+    // {
+    //   skillName: "docker",
+    //   fontAwesomeClassname: "fab fa-docker"
+    // }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -126,23 +120,15 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "University Of Gujrat, Pakistan",
+      // logo: require("./assets/images/harvardLogo.png"),
+      subHeader: "bachelor of Science in Computer Science",
+      duration: "August 2014 - August 2018"
+      // desc: "Participated in the research of XXX and published 3 papers.",
+      // descBullets: [
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      // ]
     }
   ]
 };
@@ -150,7 +136,7 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
@@ -174,29 +160,47 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Frontend developer (Freelance)",
+      company: "SparkOn",
+      // companylogo: require("./assets/images/facebookLogo.png"),
+      date: "November 2022 – Present",
+      // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "𝐋𝐞𝐝 𝐭𝐡𝐞 𝐝𝐞𝐯𝐞𝐥𝐨𝐩𝐦𝐞𝐧𝐭 of a product from inception, utilizing 𝐑𝐞𝐚𝐜𝐭𝐉𝐒, 𝐍𝐞𝐱𝐭.𝐣𝐬, 𝐚𝐧𝐝 𝐓𝐚𝐢𝐥𝐰𝐢𝐧𝐝 𝐂𝐒𝐒 to create a cutting-edge solution, built entirely from scratch.",
+        "𝐓𝐫𝐚𝐧𝐬𝐥𝐚𝐭𝐞𝐝 𝐛𝐮𝐬𝐢𝐧𝐞𝐬𝐬 𝐫𝐞𝐪𝐮𝐢𝐫𝐞𝐦𝐞𝐧𝐭𝐬 into functional output by actively collaborating with stakeholders, aligning the development process with their needs using 𝐉𝐚𝐯𝐚𝐒𝐜𝐫𝐢𝐩𝐭 and 𝐑𝐞𝐝𝐮𝐱.",
+        "𝐈𝐦𝐩𝐥𝐞𝐦𝐞𝐧𝐭𝐞𝐝 𝐫𝐞𝐬𝐩𝐨𝐧𝐬𝐢𝐯𝐞 𝐰𝐞𝐛 𝐝𝐞𝐬𝐢𝐠𝐧 𝐰𝐢𝐭𝐡 𝐒𝐭𝐲𝐥𝐞𝐝 𝐂𝐨𝐦𝐩𝐨𝐧𝐞𝐧𝐭𝐬, 𝐀𝐧𝐭 𝐃𝐞𝐬𝐢𝐠𝐧, 𝐚𝐧𝐝 𝐁𝐨𝐨𝐭𝐬𝐭𝐫𝐚𝐩, ensuring a seamless user experience across different devices, making the product 𝐦𝐨𝐛𝐢𝐥𝐞-𝐟𝐫𝐢𝐞𝐧𝐝𝐥𝐲 and accessible.",
+        "𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐝 𝐛𝐨𝐭𝐡 𝐜𝐥𝐢𝐞𝐧𝐭-𝐬𝐢𝐝𝐞 𝐚𝐧𝐝 𝐚𝐝𝐦𝐢𝐧-𝐬𝐢𝐝𝐞 𝐰𝐞𝐛 𝐚𝐩𝐩𝐥𝐢𝐜𝐚𝐭𝐢𝐨𝐧𝐬 using 𝙍𝙚𝙖𝙘𝙩, 𝙉𝙚𝙭𝙩.𝙟𝙨 significantly enhancing the product's functionality and user interface."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
+      role: "Senior Frontend Developer",
+      company: "Audace labs",
       companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      date: "April 2021 – Oct 2022",
+      // desc: "𝐃𝐞𝐬𝐢𝐠𝐧𝐞𝐝 𝐚𝐧 𝐢𝐧𝐭𝐞𝐫𝐚𝐜𝐭𝐢𝐯𝐞 𝐚𝐧𝐝 𝐞𝐧𝐠𝐚𝐠𝐢𝐧𝐠 𝐞𝐱𝐩𝐞𝐫𝐢𝐞𝐧𝐜𝐞 for the 𝐄𝐭𝐢𝐬𝐚𝐥𝐚𝐭 𝐈𝐧𝐬𝐮𝐫𝐚𝐧𝐜𝐞 𝐩𝐨𝐫𝐭𝐚𝐥 using 𝐑𝐞𝐚𝐜𝐭𝐉𝐒, 𝐍𝐞𝐱𝐭.𝐣𝐬, & 𝐓𝐚𝐢𝐥𝐰𝐢𝐧𝐝 𝐂𝐒𝐒.",
+      // "𝐂𝐫𝐞𝐚𝐭𝐞𝐝 𝐚 𝐫𝐞𝐬𝐩𝐨𝐧𝐬𝐢𝐯𝐞 𝐥𝐚𝐲𝐨𝐮𝐭 𝐚𝐧𝐝 𝐝𝐞𝐬𝐢𝐠𝐧 for the website, ensuring seamless user interface across both web and mobile applications.",
+      // "𝐔𝐭𝐢𝐥𝐢𝐳𝐞𝐝 𝐒𝐭𝐲𝐥𝐞𝐝 𝐂𝐨𝐦𝐩𝐨𝐧𝐞𝐧𝐭𝐬 𝐚𝐧𝐝 𝐀𝐧𝐭 𝐃𝐞𝐬𝐢𝐠𝐧 to enhance the user interface, focusing on modern, accessible design principles.",
+      descBullets: [
+        "𝐃𝐞𝐬𝐢𝐠𝐧𝐞𝐝 𝐚𝐧 𝐢𝐧𝐭𝐞𝐫𝐚𝐜𝐭𝐢𝐯𝐞 𝐚𝐧𝐝 𝐞𝐧𝐠𝐚𝐠𝐢𝐧𝐠 𝐞𝐱𝐩𝐞𝐫𝐢𝐞𝐧𝐜𝐞 for the 𝐄𝐭𝐢𝐬𝐚𝐥𝐚𝐭 𝐈𝐧𝐬𝐮𝐫𝐚𝐧𝐜𝐞 𝐩𝐨𝐫𝐭𝐚𝐥 using 𝐑𝐞𝐚𝐜𝐭𝐉𝐒, 𝐍𝐞𝐱𝐭.𝐣𝐬, & 𝐓𝐚𝐢𝐥𝐰𝐢𝐧𝐝 𝐂𝐒𝐒.",
+        "𝐂𝐫𝐞𝐚𝐭𝐞𝐝 𝐚 𝐫𝐞𝐬𝐩𝐨𝐧𝐬𝐢𝐯𝐞 𝐥𝐚𝐲𝐨𝐮𝐭 𝐚𝐧𝐝 𝐝𝐞𝐬𝐢𝐠𝐧 for the website, ensuring seamless user interface across both web and mobile applications.",
+        "𝐔𝐭𝐢𝐥𝐢𝐳𝐞𝐝 𝐒𝐭𝐲𝐥𝐞𝐝 𝐂𝐨𝐦𝐩𝐨𝐧𝐞𝐧𝐭𝐬 𝐚𝐧𝐝 𝐀𝐧𝐭 𝐃𝐞𝐬𝐢𝐠𝐧 to enhance the user interface, focusing on modern, accessible design principles.",
+        "𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐝 𝐫𝐞𝐮𝐬𝐚𝐛𝐥𝐞 𝐜𝐨𝐦𝐩𝐨𝐧𝐞𝐧𝐭𝐬 for 𝐰𝐞𝐛 𝐚𝐧𝐝 𝐦𝐨𝐛𝐢𝐥𝐞 𝐚𝐩𝐩𝐥𝐢𝐜𝐚𝐭𝐢𝐨𝐧𝐬 with 𝐉𝐚𝐯𝐚𝐒𝐜𝐫𝐢𝐩𝐭 & 𝐑𝐞𝐚𝐜𝐭,improving development efficiency and consistency.",
+        " 𝐎𝐩𝐭𝐢𝐦𝐢𝐳𝐞𝐝 𝐦𝐨𝐛𝐢𝐥𝐞 𝐚𝐩𝐩𝐥𝐢𝐜𝐚𝐭𝐢𝐨𝐧𝐬 using 𝐍𝐞𝐱𝐭.𝐣𝐬 & 𝐓𝐚𝐢𝐥𝐰𝐢𝐧𝐝 𝐂𝐒𝐒, ensuring a user-friendly experience across all devices."
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
+      role: "Frontend Developer Reactjs",
+      company: "Innovation Insight",
       companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      date: "November 2019 – January 2021",
+      // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      descBullets: [
+        "𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐢𝐧𝐠 𝐚𝐧𝐝 𝐦𝐚𝐢𝐧𝐭𝐚𝐢𝐧𝐢𝐧𝐠 𝐰𝐞𝐛 𝐚𝐩𝐩𝐥𝐢𝐜𝐚𝐭𝐢𝐨𝐧𝐬 using 𝐑𝐞𝐚𝐜𝐭𝐉𝐒, ensuring high performance and a seamless user experience.",
+        "𝐈𝐦𝐩𝐥𝐞𝐦𝐞𝐧𝐭𝐢𝐧𝐠 𝐫𝐞𝐬𝐩𝐨𝐧𝐬𝐢𝐯𝐞 𝐝𝐞𝐬𝐢𝐠𝐧 principles with 𝐂𝐒𝐒𝟑, 𝐒𝐭𝐲𝐥𝐞𝐝 𝐂𝐨𝐦𝐩𝐨𝐧𝐞𝐧𝐭𝐬, 𝐚𝐧𝐝 𝐓𝐚𝐢𝐥𝐰𝐢𝐧𝐝 𝐂𝐒𝐒 to create adaptable and visually appealing interfaces.",
+        "𝐈𝐧𝐭𝐞𝐠𝐫𝐚𝐭𝐢𝐧𝐠 𝐀𝐏𝐈𝐬 and managing state using 𝐑𝐞𝐝𝐮𝐱 to facilitate smooth data flow and interaction within the application.",
+        "𝐂𝐨𝐥𝐥𝐚𝐛𝐨𝐫𝐚𝐭𝐢𝐧𝐠 𝐰𝐢𝐭𝐡 𝐜𝐫𝐨𝐬𝐬-𝐟𝐮𝐧𝐜𝐭𝐢𝐨𝐧𝐚𝐥 𝐭𝐞𝐚𝐦𝐬, including designers and backend developers, to translate business requirements into technical specifications and deliver solutions that meet project goals.",
+        "𝐎𝐩𝐭𝐢𝐦𝐢𝐳𝐢𝐧𝐠 𝐰𝐞𝐛 𝐚𝐩𝐩𝐥𝐢𝐜𝐚𝐭𝐢𝐨𝐧𝐬 for performance and scalability, employing best practices in 𝐉𝐚𝐯𝐚𝐒𝐜𝐫𝐢𝐩𝐭 𝐚𝐧𝐝 𝐑𝐞𝐚𝐜𝐭 to ensure fast load times and efficient resource usage."
+      ]
     }
   ]
 };
@@ -206,7 +210,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -300,7 +304,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -324,7 +328,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -343,7 +347,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,7 +360,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -372,18 +376,18 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+92-3199322400",
+  email_address: "mbilalbutt003@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
