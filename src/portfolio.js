@@ -103,6 +103,10 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-fire"
     }
     // {
+    //   skillName: "WordPress",
+    //   fontAwesomeClassname: "fas fa-divi"
+    // }
+    // {
     //   skillName: "python",
     //   fontAwesomeClassname: "fab fa-python"
     // },
@@ -162,7 +166,7 @@ const workExperiences = {
     {
       role: "Frontend developer (Freelance)",
       company: "SparkOn",
-      // companylogo: require("./assets/images/facebookLogo.png"),
+      companylogo: require("./assets/images/sparkonLogo.png"),
       date: "November 2022 – Present",
       // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
@@ -175,7 +179,7 @@ const workExperiences = {
     {
       role: "Senior Frontend Developer",
       company: "Audace labs",
-      companylogo: require("./assets/images/quoraLogo.png"),
+      companylogo: require("./assets/images/audacelabsLogo.png"),
       date: "April 2021 – Oct 2022",
       // desc: "𝐃𝐞𝐬𝐢𝐠𝐧𝐞𝐝 𝐚𝐧 𝐢𝐧𝐭𝐞𝐫𝐚𝐜𝐭𝐢𝐯𝐞 𝐚𝐧𝐝 𝐞𝐧𝐠𝐚𝐠𝐢𝐧𝐠 𝐞𝐱𝐩𝐞𝐫𝐢𝐞𝐧𝐜𝐞 for the 𝐄𝐭𝐢𝐬𝐚𝐥𝐚𝐭 𝐈𝐧𝐬𝐮𝐫𝐚𝐧𝐜𝐞 𝐩𝐨𝐫𝐭𝐚𝐥 using 𝐑𝐞𝐚𝐜𝐭𝐉𝐒, 𝐍𝐞𝐱𝐭.𝐣𝐬, & 𝐓𝐚𝐢𝐥𝐰𝐢𝐧𝐝 𝐂𝐒𝐒.",
       // "𝐂𝐫𝐞𝐚𝐭𝐞𝐝 𝐚 𝐫𝐞𝐬𝐩𝐨𝐧𝐬𝐢𝐯𝐞 𝐥𝐚𝐲𝐨𝐮𝐭 𝐚𝐧𝐝 𝐝𝐞𝐬𝐢𝐠𝐧 for the website, ensuring seamless user interface across both web and mobile applications.",
@@ -191,7 +195,7 @@ const workExperiences = {
     {
       role: "Frontend Developer Reactjs",
       company: "Innovation Insight",
-      companylogo: require("./assets/images/airbnbLogo.png"),
+      companylogo: require("./assets/images/innovationInsightLogo.png"),
       date: "November 2019 – January 2021",
       // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
@@ -216,30 +220,44 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  // subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/sparkon-logo.png"),
+      projectName: "SparkOn",
+      projectDesc:
+        "I worked on these portals during my job at audacelabs. I worked on their insurance, health and travel portal. I workedo n Reactjs, redux, sass, antd, MUI",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://sparkon.org"
         }
-        //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/etisalat.png"),
+      projectName: "Etisalat Insurnace portals",
+      projectDesc:
+        "I worked on these portals during my job at audacelabs. I worked on their insurance, health and travel portal. I workedo n Reactjs, redux, sass, antd, MUI",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://insurance.etisalat.ae/motor-web/"
         }
+      ]
+    },
+    {
+      image: require("./assets/images/vonza-logo.png"),
+      projectName: "Vonza",
+      projectDesc:
+        "Worked on this product during my job at innovation insight. i worked on Nextjs, bootstrap, react-query, redux",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://vonza.com/"
+        }
+        //  you can add extra buttons here.
       ]
     }
   ],
